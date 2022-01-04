@@ -7,6 +7,7 @@ TagManager:
   - Platform
   - CinemachineTarget
   - Tree
+  - Clouds
   layers:
   - Default
   - TransparentFX
