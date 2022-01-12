@@ -14,7 +14,7 @@ public class HoofdMenu : MonoBehaviour
     public void StartGame()
     {
         Debug.Log("start");
-        SceneManager.LoadScene("mijnlvl"); // hier komt naam lvl 1
+        SceneManager.LoadScene("Scene-2"); // hier komt naam lvl 1
     }
 
     
