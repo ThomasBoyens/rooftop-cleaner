@@ -17,7 +17,7 @@ RenderSettings:
   m_Fog: 1
   m_FogColor: {r: 0.8396226, g: 0.8396226, b: 0.8396226, a: 1}
   m_FogMode: 2
-  m_FogDensity: 0
+  m_FogDensity: 0.0001
   m_LinearFogStart: 0
   m_LinearFogEnd: 300
   m_AmbientSkyColor: {r: 0.56674975, g: 0.6037736, b: 0.6037736, a: 1}
@@ -1144,7 +1144,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 64e5582f25162df4fa8fd80bc0c64ada, type: 2}
+  - {fileID: 2100000, guid: f657e01f9b4032c429987a7fa3a61d22, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -1547,7 +1547,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 64e5582f25162df4fa8fd80bc0c64ada, type: 2}
+  - {fileID: 2100000, guid: f657e01f9b4032c429987a7fa3a61d22, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -5350,7 +5350,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 64e5582f25162df4fa8fd80bc0c64ada, type: 2}
+  - {fileID: 2100000, guid: f657e01f9b4032c429987a7fa3a61d22, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -7378,7 +7378,7 @@ MonoBehaviour:
   respawnHealthPoints: 1
   numberOfLives: 1
   isAlive: 1
-  onLivesGone: 1
+  onLivesGone: 0
   LevelToLoad: 
 --- !u!114 &4416926081453088729
 MonoBehaviour:
@@ -8436,6 +8436,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Building
       objectReference: {fileID: 0}
+    - target: {fileID: 7409683190068771313, guid: cb80d04fdf31ab9469f9dcefbf45fd11, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: d5e8e9d7f86291a42826c8dfd3f52e9e, type: 2}
     - target: {fileID: 7969287483692401249, guid: cb80d04fdf31ab9469f9dcefbf45fd11, type: 3}
       propertyPath: m_Layer
       value: 0
