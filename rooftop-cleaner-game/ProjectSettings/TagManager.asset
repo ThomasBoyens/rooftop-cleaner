@@ -9,7 +9,11 @@ TagManager:
   - Tree
   - Clouds
   - hammer
+<<<<<<< Updated upstream
   - trashBag
+=======
+  - Barrel
+>>>>>>> Stashed changes
   layers:
   - Default
   - TransparentFX

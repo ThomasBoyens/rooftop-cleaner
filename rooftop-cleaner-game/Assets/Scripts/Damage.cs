@@ -8,7 +8,7 @@ public class Damage : MonoBehaviour
 
 	void OnTriggerEnter(Collider collision)						// used for things like bullets, which are triggers.  
 	{
-		print("deathzone entered");
+		//print("damage taken");
 		if (collision.gameObject.GetComponent<Health> () != null) {	// if the hit object has the Health script on it, deal damage
 				collision.gameObject.GetComponent<Health> ().ApplyDamage (damageAmount);
 		

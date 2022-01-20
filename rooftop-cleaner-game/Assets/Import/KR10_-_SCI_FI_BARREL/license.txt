@@ -1,0 +1,11 @@
+Model Information:
+* title:	KR10 - SCI FI BARREL
+* source:	https://sketchfab.com/3d-models/kr10-sci-fi-barrel-60ac2810903a4c05b96d433f54564a23
+* author:	Kuyper Reynolds (https://sketchfab.com/Kuyper_Reynolds)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "KR10 - SCI FI BARREL" (https://sketchfab.com/3d-models/kr10-sci-fi-barrel-60ac2810903a4c05b96d433f54564a23) by Kuyper Reynolds (https://sketchfab.com/Kuyper_Reynolds) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
