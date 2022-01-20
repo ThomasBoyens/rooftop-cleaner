@@ -6,7 +6,7 @@ using  UnityEngine.UI;
 public class TrashInventoryManager : MonoBehaviour
 {
     public static TrashInventoryManager instance;
-    public Text ScorText;
+    public Text ScoreText;
     private int score = 0;
 
 
@@ -18,7 +18,7 @@ public class TrashInventoryManager : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        ScorText.text = score.ToString() + "/10 Trash Collected";
+        ScoreText.text = score.ToString() + "/25";
     }
 
     // Update is called once per frame
@@ -30,6 +30,6 @@ public class TrashInventoryManager : MonoBehaviour
     public void AddPoint()
     {
         score += 1;
-        ScorText.text = score.ToString() + "/10 Trash Collected";
+        ScoreText.text = score.ToString() + "/25";
     }
 }

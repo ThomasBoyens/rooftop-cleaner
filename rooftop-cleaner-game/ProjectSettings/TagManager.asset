@@ -9,6 +9,7 @@ TagManager:
   - Tree
   - Clouds
   - hammer
+  - trashBag
   layers:
   - Default
   - TransparentFX

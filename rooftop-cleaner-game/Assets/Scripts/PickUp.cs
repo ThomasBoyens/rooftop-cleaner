@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using UnityEditor;
 using UnityEngine;
 
 public class PickUp : MonoBehaviour
@@ -19,7 +20,11 @@ public class PickUp : MonoBehaviour
         {
             if (other.gameObject.tag == "Player")
             {
-                TrashInventoryManager.instance.AddPoint();
+                if (this.gameObject.tag == "trashBag")
+                {
+                    TrashInventoryManager.instance.AddPoint();
+                }
+                
                 Destroy(gameObject);
               
             }
