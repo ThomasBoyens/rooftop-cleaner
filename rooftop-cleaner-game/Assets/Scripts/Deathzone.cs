@@ -4,8 +4,12 @@ using UnityEngine;
 
 public class Deathzone : MonoBehaviour
 {
+
+    [SerializeField] private Transform player;
+    [SerializeField] private Transform respawnPoint;
     void onTriggerEnter(Collider other)
     {
-        Destroy(other.gameObject);
+        player.transform.position = respawnPoint.transform.position;
+        
     }
 }
