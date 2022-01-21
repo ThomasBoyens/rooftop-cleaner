@@ -5,6 +5,12 @@ using UnityEngine;
 
 public class PickUp : MonoBehaviour
 {
+    
+    public bool SolarGemaakt = false;
+    public PickUpHamer pH;
+
+
+
     // Start is called before the first frame update
     void Start()
     {
@@ -23,10 +29,18 @@ public class PickUp : MonoBehaviour
                 if (this.gameObject.tag == "trashBag")
                 {
                     TrashInventoryManager.instance.AddPoint();
+                    Destroy(gameObject);
                 }
-                
-                Destroy(gameObject);
-              
-            }
+               
+                else if (this.gameObject.tag == "Solar" && SolarGemaakt == false && pH.HamerGemaakt)
+                {
+                    SolarPanelInvent.instance.AddPoint();
+                    SolarGemaakt = true;
+                   
+                }
+
+
+
+        }
         }
 }
