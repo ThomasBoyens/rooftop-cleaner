@@ -7,7 +7,7 @@ public class TrashInventoryManager : MonoBehaviour
 {
     public static TrashInventoryManager instance;
     public Text ScoreText;
-    private int score = 0;
+    public int Score { get; private set; } = 0;
 
 
     private void Awake()
@@ -18,7 +18,7 @@ public class TrashInventoryManager : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        ScoreText.text = score.ToString() + "/25";
+        ScoreText.text = Score.ToString() + "/25";
     }
 
     // Update is called once per frame
@@ -27,9 +27,10 @@ public class TrashInventoryManager : MonoBehaviour
         
     }
 
+    
     public void AddPoint()
     {
-        score += 1;
-        ScoreText.text = score.ToString() + "/25";
+        instance.Score += 1;
+        ScoreText.text = Score.ToString() + "/25";
     }
 }
