@@ -8,7 +8,7 @@ public class InventoryManager : MonoBehaviour
     public static InventoryManager instance;
     public Text inventoryText;
 
-    private int remainingTrees = 10;
+    private int remainingTrees = 15;
 
     private void Awake()
     {
