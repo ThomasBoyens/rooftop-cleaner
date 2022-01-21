@@ -18,7 +18,7 @@ public class TrashInventoryManager : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        ScoreText.text = Score.ToString() + "/25";
+        ScoreText.text = Score.ToString() + "/20";
     }
 
     // Update is called once per frame
@@ -27,10 +27,9 @@ public class TrashInventoryManager : MonoBehaviour
         
     }
 
-    
     public void AddPoint()
     {
         instance.Score += 1;
-        ScoreText.text = Score.ToString() + "/25";
+        ScoreText.text = Score.ToString() + "/20";
     }
 }

@@ -8,7 +8,7 @@ public class NextLevel : MonoBehaviour
 {
      public string LevelToLoad = "";
      public GameObject NotEnoughCanvas;
-     private int currScore ;
+     private int currScore;
      
      void Update()
      {
