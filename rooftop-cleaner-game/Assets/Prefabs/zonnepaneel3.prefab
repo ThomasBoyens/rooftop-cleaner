@@ -91,7 +91,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3217331166314359929}
   m_Layer: 0
-  m_Name: pCube45
+  m_Name: zonnepaneel3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
