@@ -18,7 +18,7 @@ public class SolarPanelInvent : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        ScoreText.text = score.ToString() + "/25";
+        ScoreText.text = score.ToString() + "/7";
     }
 
     // Update is called once per frame
@@ -30,6 +30,6 @@ public class SolarPanelInvent : MonoBehaviour
     public void AddPoint()
     {
         score += 1;
-        ScoreText.text = score.ToString() + "/25";
+        ScoreText.text = score.ToString() + "/7";
     }
 }

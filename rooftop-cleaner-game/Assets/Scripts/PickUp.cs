@@ -6,8 +6,7 @@ using UnityEngine;
 public class PickUp : MonoBehaviour
 {
     
-    public bool SolarGemaakt = false;
-    public PickUpHamer Hammer;
+    
 
     // soundClip that has to play
     public AudioClip PickUpSound;
@@ -27,12 +26,7 @@ public class PickUp : MonoBehaviour
                    
                 }
                
-                else if (this.gameObject.tag == "Solar" && SolarGemaakt == false && Hammer.HamerGemaakt)
-                {
-                    SolarPanelInvent.instance.AddPoint();
-                    SolarGemaakt = true;
-                   
-                }
+                
 
 
 

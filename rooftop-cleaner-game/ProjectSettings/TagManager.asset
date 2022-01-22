@@ -11,6 +11,12 @@ TagManager:
   - Barrel
   - hammer
   - Solar
+  - Solar2
+  - Solar3
+  - Solar4
+  - Solar5
+  - Solar6
+  - Solar7
   layers:
   - Default
   - TransparentFX
