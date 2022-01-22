@@ -6,6 +6,8 @@ public class TreePlanter : MonoBehaviour
 {
     public GameObject tree;
 
+    public AudioClip PlantSound;
+
     void start()
     {
         //tree.GetComponent<Renderer>().enabled = false;
@@ -21,9 +23,13 @@ public class TreePlanter : MonoBehaviour
             tree.GetComponent<Collider>().enabled = true;
             gameObject.GetComponent<Collider>().isTrigger = false;
             
+            AudioSource.PlayClipAtPoint(PlantSound, transform.position);
+            
             //Update UI
             InventoryManager.instance.SubtractPoint();
         }
+        
+        
         
     }
 }

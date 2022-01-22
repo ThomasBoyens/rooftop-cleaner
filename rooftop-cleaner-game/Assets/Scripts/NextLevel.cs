@@ -29,10 +29,17 @@ public class NextLevel : MonoBehaviour
             else
                 NotEnoughCanvas.SetActive(false);
         }
-        else if (LevelToLoad == "Scene-3")
+        else if (LevelToLoad == "Scene-4")
         {
-            //thomas invent
-        }
+            currentScore = InventoryManager.instance.remainingTrees;
+            
+            // if the score is less then 20 show the text not enough, if currScore == 20 make Canvas invisible
+            if (currentScore > 0)
+                NotEnoughCanvas.SetActive(true);
+            else
+                NotEnoughCanvas.SetActive(false);
+                
+            }
         else if (LevelToLoad == "Hoofdmenu-0")
         {
             currentScore = SolarPanelInvent.instance.score;
@@ -51,7 +58,7 @@ public class NextLevel : MonoBehaviour
                  SceneManager.LoadScene(LevelToLoad);
              
              // in level 2 to load level3 if all the trees where planeted(score==0)load next level
-             else if (LevelToLoad=="Scene-3" && currentScore == 0)
+             else if (LevelToLoad=="Scene-4" && currentScore == 0)
                  SceneManager.LoadScene(LevelToLoad);   
              
              // in level 3 to load level4 if all solarpanels are repaired(score == 7) load next level

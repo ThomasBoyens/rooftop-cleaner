@@ -302,6 +302,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   tree: {fileID: 8678979826903186456}
+  PlantSound: {fileID: 8300000, guid: ecf21ef9e57850b4eb87328c4cb95d6b, type: 3}
 --- !u!1 &8679019748748666021
 GameObject:
   m_ObjectHideFlags: 0
