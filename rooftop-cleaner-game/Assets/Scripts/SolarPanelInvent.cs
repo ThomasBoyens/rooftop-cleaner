@@ -8,7 +8,7 @@ public class SolarPanelInvent : MonoBehaviour
 
     public static SolarPanelInvent instance;
     public Text ScoreText;
-    private int score = 0;
+    public int score { get; private set; } = 0;
 
     private void Awake()
     {

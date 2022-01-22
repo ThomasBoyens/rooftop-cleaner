@@ -15,16 +15,30 @@ public class NextLevel : MonoBehaviour
      // current player score
      private int currentScore;
      
-     void Update()
+
+    void Update()
      {
-         // get score from the inventory manger,check score every frame on advancements
-         currentScore = TrashInventoryManager.instance.Score;
-         // if the score is less then 20 show the text not enough, if currScore == 20 make Canvas invisible
-         if (currentScore < 20)
-             NotEnoughCanvas.SetActive(true);
-         else
-            NotEnoughCanvas.SetActive(false);
-     }
+        // get score from the inventory manger,check score every frame on advancements
+        if (LevelToLoad == "Scene-2")
+        {
+            currentScore = TrashInventoryManager.instance.Score;
+
+            // if the score is less then 20 show the text not enough, if currScore == 20 make Canvas invisible
+            if (currentScore < 20)
+                NotEnoughCanvas.SetActive(true);
+            else
+                NotEnoughCanvas.SetActive(false);
+        }
+        else if (LevelToLoad == "Scene-3")
+        {
+            //thomas invent
+        }
+        else if (LevelToLoad == "Hoofdmenu-0")
+        {
+            currentScore = SolarPanelInvent.instance.score;
+        }
+    
+    }
      
      void OnTriggerEnter(Collider other)
      {
@@ -40,8 +54,8 @@ public class NextLevel : MonoBehaviour
              else if (LevelToLoad=="Scene-3" && currentScore == 0)
                  SceneManager.LoadScene(LevelToLoad);   
              
-             // in level 3 to load level4 if all solarpanels are placed(score == X) load next level
-             else if (LevelToLoad == "Scene-4" && currentScore == 1) 
+             // in level 3 to load level4 if all solarpanels are repaired(score == 7) load next level
+             else if (LevelToLoad == "Hoofdmenu-0" && currentScore == 7) 
                  SceneManager.LoadScene(LevelToLoad);
              
             
