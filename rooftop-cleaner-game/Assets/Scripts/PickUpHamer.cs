@@ -5,7 +5,7 @@ using UnityEngine;
 public class PickUpHamer : MonoBehaviour
 {
     public bool HamerGemaakt = false;
-
+    public AudioSource pickupSound;
 
 
     // Start is called before the first frame update
@@ -25,6 +25,7 @@ public class PickUpHamer : MonoBehaviour
         {
             if (this.gameObject.tag == "hammer")
             {
+                pickupSound.Play();
                 HamerGemaakt = true;
                 HammerInvent1.instance.AddPoint();
                 Destroy(gameObject);
