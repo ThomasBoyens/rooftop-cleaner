@@ -10,13 +10,16 @@ public class HoofdMenu : MonoBehaviour
         Application.Quit();
         Debug.Log("quit");
     }
-
+    
     public void StartGame()
     {
         Debug.Log("start");
-        SceneManager.LoadScene("Scenes/Level1"); // hier komt naam lvl 1
+        // level that loads when you press play
+        SceneManager.LoadScene("Scenes/Level1"); 
     }
 
+
+   
     
 
 }

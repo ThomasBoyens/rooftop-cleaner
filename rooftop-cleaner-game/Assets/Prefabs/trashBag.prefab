@@ -122,3 +122,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aa52c87fc4661614f86a3af021f6b192, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  SolarGemaakt: 0
+  Hammer: {fileID: 0}
+  PickUpSound: {fileID: 8300000, guid: ecf21ef9e57850b4eb87328c4cb95d6b, type: 3}
