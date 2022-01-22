@@ -19,7 +19,7 @@ public class NextLevel : MonoBehaviour
     void Update()
      {
         // get score from the inventory manger,check score every frame on advancements
-        if (LevelToLoad == "Scene-2")
+        if (LevelToLoad == "Level2")
         {
             currentScore = TrashInventoryManager.instance.Score;
 
@@ -54,7 +54,7 @@ public class NextLevel : MonoBehaviour
          {
              // check wich level has to be loaded
              // in level 1 to load level2 if score is 20 load next level
-             if (LevelToLoad == "Scene-2" && currentScore == 20) 
+             if (LevelToLoad == "Level2" && currentScore == 20) 
                  SceneManager.LoadScene(LevelToLoad);
              
              // in level 2 to load level3 if all the trees where planeted(score==0)load next level
