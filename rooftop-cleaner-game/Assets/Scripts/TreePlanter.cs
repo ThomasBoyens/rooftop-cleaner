@@ -8,20 +8,14 @@ public class TreePlanter : MonoBehaviour
 
     public AudioClip PlantSound;
 
-    void start()
-    {
-        //tree.GetComponent<Renderer>().enabled = false;
-    }
-    
-    
     private void OnTriggerEnter(Collider other)
     {
-        if (other.gameObject.tag == "Player")
+        if (other.gameObject.tag == "Player")  // check if the collided object has the Player tag
         {
             //print("tree planted");
-            tree.GetComponent<Renderer>().enabled = true;
-            tree.GetComponent<Collider>().enabled = true;
-            gameObject.GetComponent<Collider>().isTrigger = false;
+            tree.GetComponent<Renderer>().enabled = true;           
+            tree.GetComponent<Collider>().enabled = true;           
+            gameObject.GetComponent<Collider>().isTrigger = false;  
 
             AudioSource.PlayClipAtPoint(PlantSound, transform.position);
             

@@ -22,7 +22,7 @@ public class Health : MonoBehaviour
 	private GameObject gameOverCanvas;
 	
 
-	// Use this for initialization
+	// init
 	void Start () 
 	{
 		// store initial position as respawn location
@@ -68,10 +68,5 @@ public class Health : MonoBehaviour
 	{	
 		healthPoints = healthPoints - amount;	
 	}
-	
-	public void updateRespawn(Vector3 newRespawnPosition, Quaternion newRespawnRotation) {
-		respawnPosition = newRespawnPosition;
-		respawnRotation = newRespawnRotation;
-	}
-	
+
 }

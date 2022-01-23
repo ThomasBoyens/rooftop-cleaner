@@ -5,13 +5,9 @@ using UnityEngine;
 public class Damage : MonoBehaviour
 {
 	public float damageAmount = 10.0f;
-	
-	public bool damageOnTrigger = true;
 
 	public bool destroySelfOnImpact = false;	// variables dealing with exploding on impact (area of effect)
 	public float delayBeforeDestroy = 0.0f;
-
-	private float savedTime = 0;
 
 	void OnTriggerEnter(Collider collision)						// used for things like bullets, which are triggers.  
 	{
