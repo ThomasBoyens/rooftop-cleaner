@@ -970,7 +970,6 @@ MonoBehaviour:
   damageOnTrigger: 1
   destroySelfOnImpact: 0
   delayBeforeDestroy: 0
-  explosionPrefab: {fileID: 0}
 --- !u!65 &85727918
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -1626,7 +1625,6 @@ MonoBehaviour:
   damageOnTrigger: 1
   destroySelfOnImpact: 0
   delayBeforeDestroy: 0
-  explosionPrefab: {fileID: 0}
 --- !u!65 &260308105
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -1725,7 +1723,6 @@ MonoBehaviour:
   damageOnTrigger: 1
   destroySelfOnImpact: 0
   delayBeforeDestroy: 0
-  explosionPrefab: {fileID: 0}
 --- !u!23 &265942889
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -2266,7 +2263,6 @@ MonoBehaviour:
   damageOnTrigger: 1
   destroySelfOnImpact: 0
   delayBeforeDestroy: 0
-  explosionPrefab: {fileID: 0}
 --- !u!65 &373969643
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -2448,7 +2444,6 @@ MonoBehaviour:
   damageOnTrigger: 1
   destroySelfOnImpact: 0
   delayBeforeDestroy: 0
-  explosionPrefab: {fileID: 0}
 --- !u!65 &386835703
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -2599,7 +2594,6 @@ MonoBehaviour:
   damageOnTrigger: 1
   destroySelfOnImpact: 0
   delayBeforeDestroy: 0
-  explosionPrefab: {fileID: 0}
 --- !u!65 &395698077
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -2918,7 +2912,6 @@ MonoBehaviour:
   damageOnTrigger: 1
   destroySelfOnImpact: 0
   delayBeforeDestroy: 0
-  explosionPrefab: {fileID: 0}
 --- !u!65 &409818094
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -3031,7 +3024,6 @@ MonoBehaviour:
   damageOnTrigger: 1
   destroySelfOnImpact: 0
   delayBeforeDestroy: 0
-  explosionPrefab: {fileID: 0}
 --- !u!65 &414912864
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -3833,7 +3825,6 @@ MonoBehaviour:
   damageOnTrigger: 1
   destroySelfOnImpact: 0
   delayBeforeDestroy: 0
-  explosionPrefab: {fileID: 0}
 --- !u!65 &574090771
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -4015,7 +4006,6 @@ MonoBehaviour:
   damageOnTrigger: 1
   destroySelfOnImpact: 0
   delayBeforeDestroy: 0
-  explosionPrefab: {fileID: 0}
 --- !u!65 &579661116
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -4428,7 +4418,6 @@ MonoBehaviour:
   damageOnTrigger: 1
   destroySelfOnImpact: 0
   delayBeforeDestroy: 0
-  explosionPrefab: {fileID: 0}
 --- !u!65 &634200480
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -4681,7 +4670,6 @@ MonoBehaviour:
   damageOnTrigger: 1
   destroySelfOnImpact: 0
   delayBeforeDestroy: 0
-  explosionPrefab: {fileID: 0}
 --- !u!65 &643167226
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -5751,7 +5739,6 @@ MonoBehaviour:
   damageOnTrigger: 1
   destroySelfOnImpact: 0
   delayBeforeDestroy: 0
-  explosionPrefab: {fileID: 0}
 --- !u!65 &793033445
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -6342,7 +6329,6 @@ MonoBehaviour:
   damageOnTrigger: 1
   destroySelfOnImpact: 0
   delayBeforeDestroy: 0
-  explosionPrefab: {fileID: 0}
 --- !u!65 &894037129
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -6455,7 +6441,6 @@ MonoBehaviour:
   damageOnTrigger: 1
   destroySelfOnImpact: 0
   delayBeforeDestroy: 0
-  explosionPrefab: {fileID: 0}
 --- !u!65 &898673472
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -7195,7 +7180,6 @@ MonoBehaviour:
   damageOnTrigger: 1
   destroySelfOnImpact: 0
   delayBeforeDestroy: 0
-  explosionPrefab: {fileID: 0}
 --- !u!65 &987156460
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -7883,7 +7867,6 @@ MonoBehaviour:
   damageOnTrigger: 1
   destroySelfOnImpact: 0
   delayBeforeDestroy: 0
-  explosionPrefab: {fileID: 0}
 --- !u!65 &1070047758
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -8065,7 +8048,6 @@ MonoBehaviour:
   damageOnTrigger: 1
   destroySelfOnImpact: 0
   delayBeforeDestroy: 0
-  explosionPrefab: {fileID: 0}
 --- !u!65 &1070465088
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -8178,7 +8160,6 @@ MonoBehaviour:
   damageOnTrigger: 1
   destroySelfOnImpact: 0
   delayBeforeDestroy: 0
-  explosionPrefab: {fileID: 0}
 --- !u!65 &1087616599
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -8638,7 +8619,6 @@ MonoBehaviour:
   damageOnTrigger: 1
   destroySelfOnImpact: 0
   delayBeforeDestroy: 0
-  explosionPrefab: {fileID: 0}
 --- !u!65 &1139988350
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -8903,7 +8883,6 @@ MonoBehaviour:
   damageOnTrigger: 1
   destroySelfOnImpact: 0
   delayBeforeDestroy: 0
-  explosionPrefab: {fileID: 0}
 --- !u!65 &1165499762
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -9016,7 +8995,6 @@ MonoBehaviour:
   damageOnTrigger: 1
   destroySelfOnImpact: 0
   delayBeforeDestroy: 0
-  explosionPrefab: {fileID: 0}
 --- !u!65 &1169714063
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -9408,7 +9386,6 @@ MonoBehaviour:
   damageOnTrigger: 1
   destroySelfOnImpact: 0
   delayBeforeDestroy: 0
-  explosionPrefab: {fileID: 0}
 --- !u!65 &1248792008
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -9992,7 +9969,6 @@ MonoBehaviour:
   damageOnTrigger: 1
   destroySelfOnImpact: 0
   delayBeforeDestroy: 0
-  explosionPrefab: {fileID: 0}
 --- !u!65 &1271718948
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -10327,7 +10303,6 @@ MonoBehaviour:
   damageOnTrigger: 1
   destroySelfOnImpact: 0
   delayBeforeDestroy: 0
-  explosionPrefab: {fileID: 0}
 --- !u!65 &1317581331
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -10850,7 +10825,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Resart
+  m_Text: Restart
 --- !u!222 &1355127597
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -11357,7 +11332,6 @@ MonoBehaviour:
   damageOnTrigger: 1
   destroySelfOnImpact: 0
   delayBeforeDestroy: 0
-  explosionPrefab: {fileID: 0}
 --- !u!65 &1421136496
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -11821,7 +11795,6 @@ MonoBehaviour:
   damageOnTrigger: 1
   destroySelfOnImpact: 0
   delayBeforeDestroy: 0
-  explosionPrefab: {fileID: 0}
 --- !u!65 &1497459777
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -12065,7 +12038,6 @@ MonoBehaviour:
   damageOnTrigger: 1
   destroySelfOnImpact: 0
   delayBeforeDestroy: 0
-  explosionPrefab: {fileID: 0}
 --- !u!65 &1508869119
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -12261,7 +12233,6 @@ MonoBehaviour:
   damageOnTrigger: 1
   destroySelfOnImpact: 0
   delayBeforeDestroy: 0
-  explosionPrefab: {fileID: 0}
 --- !u!65 &1530153968
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -12374,7 +12345,6 @@ MonoBehaviour:
   damageOnTrigger: 1
   destroySelfOnImpact: 0
   delayBeforeDestroy: 0
-  explosionPrefab: {fileID: 0}
 --- !u!65 &1536257839
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -12544,7 +12514,6 @@ MonoBehaviour:
   damageOnTrigger: 1
   destroySelfOnImpact: 0
   delayBeforeDestroy: 0
-  explosionPrefab: {fileID: 0}
 --- !u!65 &1567952691
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -12832,7 +12801,6 @@ MonoBehaviour:
   damageOnTrigger: 1
   destroySelfOnImpact: 0
   delayBeforeDestroy: 0
-  explosionPrefab: {fileID: 0}
 --- !u!65 &1595645917
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -13597,7 +13565,6 @@ MonoBehaviour:
   damageOnTrigger: 1
   destroySelfOnImpact: 0
   delayBeforeDestroy: 0
-  explosionPrefab: {fileID: 0}
 --- !u!65 &1672347120
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -14437,7 +14404,6 @@ MonoBehaviour:
   damageOnTrigger: 1
   destroySelfOnImpact: 0
   delayBeforeDestroy: 0
-  explosionPrefab: {fileID: 0}
 --- !u!65 &1798732697
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -14550,7 +14516,6 @@ MonoBehaviour:
   damageOnTrigger: 1
   destroySelfOnImpact: 0
   delayBeforeDestroy: 0
-  explosionPrefab: {fileID: 0}
 --- !u!65 &1799847341
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -15309,7 +15274,6 @@ MonoBehaviour:
   damageOnTrigger: 1
   destroySelfOnImpact: 0
   delayBeforeDestroy: 0
-  explosionPrefab: {fileID: 0}
 --- !u!65 &1852784837
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -15427,7 +15391,6 @@ MonoBehaviour:
   damageOnTrigger: 1
   destroySelfOnImpact: 0
   delayBeforeDestroy: 0
-  explosionPrefab: {fileID: 0}
 --- !u!65 &1870645130
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -16196,7 +16159,6 @@ MonoBehaviour:
   damageOnTrigger: 1
   destroySelfOnImpact: 0
   delayBeforeDestroy: 0
-  explosionPrefab: {fileID: 0}
 --- !u!65 &1995001076
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -16622,7 +16584,6 @@ MonoBehaviour:
   damageOnTrigger: 1
   destroySelfOnImpact: 0
   delayBeforeDestroy: 0
-  explosionPrefab: {fileID: 0}
 --- !u!65 &2019620860
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -17057,7 +17018,6 @@ MonoBehaviour:
   damageOnTrigger: 1
   destroySelfOnImpact: 0
   delayBeforeDestroy: 0
-  explosionPrefab: {fileID: 0}
 --- !u!65 &2049973601
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -17425,7 +17385,6 @@ MonoBehaviour:
   damageOnTrigger: 1
   destroySelfOnImpact: 0
   delayBeforeDestroy: 0
-  explosionPrefab: {fileID: 0}
 --- !u!65 &2062020963
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -17922,7 +17881,6 @@ MonoBehaviour:
   damageOnTrigger: 1
   destroySelfOnImpact: 0
   delayBeforeDestroy: 0
-  explosionPrefab: {fileID: 0}
 --- !u!65 &2145373873
 BoxCollider:
   m_ObjectHideFlags: 0
