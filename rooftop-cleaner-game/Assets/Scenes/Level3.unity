@@ -4205,6 +4205,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1293407799809740064, guid: 3e1150bbb7af10b448fcba1c79cef5a4, type: 3}
+      propertyPath: onLivesGone
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 1293407799809740067, guid: 3e1150bbb7af10b448fcba1c79cef5a4, type: 3}
       propertyPath: m_Name
       value: Player
@@ -17805,7 +17809,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2142781142}
-  - component: {fileID: 2142781143}
   m_Layer: 0
   m_Name: Clouds
   m_TagString: Untagged
@@ -17869,19 +17872,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &2142781143
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2142781141}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3b9cb0a0558926c41abd978e528128f3, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  audioKeuze: {fileID: 1383448499}
 --- !u!1 &2145373870
 GameObject:
   m_ObjectHideFlags: 0
