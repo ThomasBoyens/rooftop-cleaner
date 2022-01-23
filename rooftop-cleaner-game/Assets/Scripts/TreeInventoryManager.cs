@@ -3,9 +3,9 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class InventoryManager : MonoBehaviour
+public class TreeInventoryManager : MonoBehaviour
 {
-    public static InventoryManager instance;
+    public static TreeInventoryManager instance;
     public Text inventoryText;
 
     public int remainingTrees = 15;

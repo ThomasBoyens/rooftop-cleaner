@@ -26,7 +26,7 @@ public class TreePlanter : MonoBehaviour
             AudioSource.PlayClipAtPoint(PlantSound, transform.position);
             
             //Update UI
-            InventoryManager.instance.SubtractPoint();
+            TreeInventoryManager.instance.SubtractPoint();
         }
         
         

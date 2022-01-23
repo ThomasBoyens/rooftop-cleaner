@@ -31,7 +31,7 @@ public class NextLevel : MonoBehaviour
         }
         else if (LevelToLoad == "Level3")
         {
-            currentScore = InventoryManager.instance.remainingTrees;
+            currentScore = TreeInventoryManager.instance.remainingTrees;
             
             // if the score is less then 20 show the text not enough, if currScore == 20 make Canvas invisible
             if (currentScore > 0)
