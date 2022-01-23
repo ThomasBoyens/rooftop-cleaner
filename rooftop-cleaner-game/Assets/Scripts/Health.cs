@@ -18,6 +18,8 @@ public class Health : MonoBehaviour
 	
 	private Vector3 respawnPosition;
 	private Quaternion respawnRotation;
+
+	private GameObject gameOverCanvas;
 	
 
 	// Use this for initialization
@@ -43,8 +45,10 @@ public class Health : MonoBehaviour
 				transform.position = respawnPosition;	// reset the player to respawn position
 				transform.rotation = respawnRotation;
 				healthPoints = respawnHealthPoints;	// give the player full health again
+				
 			} else { // here is where you do stuff once ALL lives are gone)
 				isAlive = false;
+				
 				
 				switch(onLivesGone)
 				{
@@ -69,4 +73,5 @@ public class Health : MonoBehaviour
 		respawnPosition = newRespawnPosition;
 		respawnRotation = newRespawnRotation;
 	}
+	
 }

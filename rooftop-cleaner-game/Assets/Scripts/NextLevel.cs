@@ -65,10 +65,6 @@ public class NextLevel : MonoBehaviour
              else if (LevelToLoad == "Hoofdmenu-0" && currentScore == 7) 
                  SceneManager.LoadScene(LevelToLoad);
              
-            
-            
-
-
          }
      }
 }
